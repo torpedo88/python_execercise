@@ -19,4 +19,3 @@ print(f"Odd index Charcters are", odd_char)
 print(f"Reversed Charcters are", rever_char)
 
 
-# test develop branch
