@@ -1,3 +1,4 @@
+'''
 class Users:
     def my_users(self, fname, lname, fullname):
         self.fname = fname
@@ -16,8 +17,15 @@ class Users:
     templete = "Hello, my name is {}" + " " + "and i really enojoy {}, Have a nice day !!!"
     print(templete.format (fullname, tech))
     
+    '''
 
 
+message = input(f"Please enter a message :")
+
+print(f"Upper :", message.upper())
+print(f"Lower :", message.lower())
+print(f"Capitalized :",message.capitalize())
+print("Title :", message.title())
          
     
 
